@@ -1,0 +1,17 @@
+<Defaults>
+    <Text fontSize="60" />
+    <Button iconWidth="300"/>
+</Defaults>
+<Panel  position="0 0 -10.1" width="2800" height="320" color="#000000">
+    <GridLayout constraint="FixedColumnCount" constraintCount="9" cellSize="300 300" padding="10" spacing="10">
+        <Text color="red">REMOVE\nALL:</Text>
+        <Button colors="#00C01D|#00C01D80|#00C01D40" onClick="RemoveTokens(ACTIVATION)" icon="ACTIVATIONIMG"></Button>
+        <Button colors="#F10C0C|#F10C0C80|#F10C0C40" onClick="RemoveTokens(ONEWOUND)"  icon="ONEWOUNDIMG"></Button>
+        <Button colors="#F10C0C|#F10C0C80|#F10C0C40" onClick="RemoveTokens(THREEWOUNDS)" icon="THREEWOUNDSIMG"></Button>
+        <Button colors="#F6F7FA|#F6F7FA80|#F6F7FA40" onClick="RemoveTokens(WHITEFLAG)" icon="WHITEFLAGIMG"></Button>
+        <Button colors="#A020F0|#A020F080|#A020F040" onClick="RemoveTokens(MAGIC)" icon="MAGICIMG"></Button>
+        <Button colors="#F7D506|#F7D50680|#F7D50640" onClick="RemoveTokens(WARNING)" icon="WARNINGIMG"></Button>
+        <Button colors="#4E5FFF|#4E5FFF80|#4E5FFF40" onClick="RemoveTokens(STUN)" icon="STUNIMG"></Button>
+        <Button colors="#F4641D|#F4641D80|#F4641D40" onClick="RemoveTokens(EXCLAMATION)" icon="EXCLAMATIONIMG"></Button>
+    </GridLayout>
+</Panel>
